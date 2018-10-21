@@ -18,8 +18,7 @@ class TodoListViewController: SwipeTableViewController {
         }
     }    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        tableView.rowHeight = 80.0
+        super.viewDidLoad()        
     }
     
     //MARK: - Tableview Datasource Methods
